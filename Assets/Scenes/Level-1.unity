@@ -6365,7 +6365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rBody: {fileID: 0}
-  sensor: {fileID: 580138258}
+  sensor: {fileID: 580138260}
   render: {fileID: 0}
   anim: {fileID: 0}
   newPosition: {x: 50, y: 5, z: 0}
@@ -17821,7 +17821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 580138257}
   - component: {fileID: 580138259}
-  - component: {fileID: 580138258}
+  - component: {fileID: 580138260}
   m_Layer: 0
   m_Name: GroundSensor
   m_TagString: Untagged
@@ -17844,20 +17844,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 198812621}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &580138258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580138256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7fb01e2693fa043b2faee052550d3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGrounded: 0
-  anim: {fileID: 0}
 --- !u!61 &580138259
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17903,6 +17889,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6188736, y: 0.21729875}
   m_EdgeRadius: 0
+--- !u!114 &580138260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580138256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71a4d3a7612a10346882535ddb78f8e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGrounded: 0
+  anim: {fileID: 0}
 --- !u!1 &585216768
 GameObject:
   m_ObjectHideFlags: 0
@@ -39767,6 +39767,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 749aef7517a4b814682f1dab0c2aeb76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  CoinSound: {fileID: 8300000, guid: de85c2717e13a4546b69e5f9e7ba5aca, type: 3}
+  rBody: {fileID: 0}
 --- !u!95 &1384520304
 Animator:
   serializedVersion: 5
